@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, type ReactNode } from 'react'
 
 // ─── Web3Forms ────────────────────────────────────────────────────────────────
-const WEB3FORMS_KEY = 'f7c89c2c-5bc3-4ec3-8298-4180f48f51cc'
+const WEB3FORMS_KEY = '029f3d50-f2f2-44c5-96e2-f55af0db523f'
 
 async function sendContactEmail(data: { name: string; email: string; phone: string; subject: string; message: string }) {
   const res = await fetch('https://api.web3forms.com/submit', {
