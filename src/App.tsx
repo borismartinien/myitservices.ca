@@ -55,12 +55,27 @@ const SERVICES = [
     title: 'Création de sites web',
     desc: 'Sites vitrines, boutiques en ligne et applications web sur mesure, modernes et optimisés pour le référencement.',
     color: '#dcfce7',
-    img: 'https://images.unsplash.com/photo-1726594699522-d7c2f5459f52?w=600&h=400&fit=crop&auto=format',
+    img: 'https://static.wixstatic.com/media/4440b2_16762a267073491c80a30881994b0881~mv2.png/v1/fill/w_491,h_491,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4440b2_16762a267073491c80a30881994b0881~mv2.png',
+  },
+  {
+    icon: '🔄',
+    title: 'Recyclage informatique',
+    desc: "Donnez une seconde vie à vos équipements informatiques grâce à notre service de recyclage responsable.",
+    color: '#ede9fe',
+    img: 'https://tse4.mm.bing.net/th/id/OIP.I9XSIeyJod1J8J4F7tCXOAHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
+  },
+  
+  {
+    icon: '📄',
+    title: 'Bureautique',
+    desc: 'Gagnez du temps grâce à nos services de bureautiques : saisie de documents, CV professionnels .',
+    color: '#fee2e2',
+    img: 'https://images.unsplash.com/photo-1602016736566-7ed6a58894bd?w=600&h=400&fit=crop&auto=format',
   },
   {
     icon: '📧',
     title: 'Microsoft 365',
-    desc: "Configuration complète de vos comptes professionnels : Outlook, Teams, SharePoint, OneDrive et Azure AD.",
+    desc: "Configuration complète de vos comptes professionnels : Outlook, Teams, SharePoint, OneDrive .",
     color: '#ede9fe',
     img: 'https://images.unsplash.com/photo-1649433391841-02a04e22ad50?w=600&h=400&fit=crop&auto=format',
   },
@@ -71,20 +86,8 @@ const SERVICES = [
     color: '#fef9c3',
     img: 'https://images.unsplash.com/photo-1683721003111-070bcc053d8b?w=600&h=400&fit=crop&auto=format',
   },
-  {
-    icon: '🔒',
-    title: 'Cybersécurité',
-    desc: 'Audit de sécurité, antivirus, sauvegardes et formation de vos équipes aux bonnes pratiques numériques.',
-    color: '#fee2e2',
-    img: 'https://images.unsplash.com/photo-1602016736566-7ed6a58894bd?w=600&h=400&fit=crop&auto=format',
-  },
-  {
-    icon: '☁️',
-    title: 'Solutions infonuagiques',
-    desc: "Migration vers le cloud, gestion de serveurs virtuels et déploiement d'infrastructures évolutives.",
-    color: '#e0f2fe',
-    img: 'https://images.unsplash.com/photo-1497015289639-54688650d173?w=600&h=400&fit=crop&auto=format',
-  },
+
+
 ]
 
 const PORTFOLIO = [
@@ -94,20 +97,20 @@ const PORTFOLIO = [
   { title: 'Studio Volta', cat: 'Création de contenu', desc: 'Stratégie de contenu, vidéos courtes et graphismes pour Instagram et LinkedIn.', color: '#6d28d9', img: 'https://images.unsplash.com/photo-1760008486593-a85315610136?w=700&h=480&fit=crop&auto=format' },
   { title: 'Électro-Nord HVAC', cat: 'Support informatique', desc: "Contrat de maintenance mensuel, helpdesk et gestion du parc de 12 postes de travail.", color: '#065f46', img: 'https://images.unsplash.com/photo-1484788984921-03950022c9ef?w=700&h=480&fit=crop&auto=format' },
   { title: 'Boulangerie Maison Pain', cat: 'Site web + SEO', desc: 'Boutique en ligne Shopify avec référencement local et intégration des réseaux sociaux.', color: '#92400e', img: 'https://images.unsplash.com/photo-1511385348-a52b4a160dc2?w=700&h=480&fit=crop&auto=format' },
-  { title: 'Cabinet Arcand Avocats', cat: 'Cybersécurité', desc: 'Audit complet, mise en place MFA, chiffrement des données et formation du personnel.', color: '#7f1d1d', img: 'https://images.unsplash.com/photo-1597673030062-0a0f1a801a31?w=700&h=480&fit=crop&auto=format' },
+  { title: 'Cabinet Arcand Avocats', cat: 'Rachat pc', desc: 'rachat complet du parc informatique, éffacement des données et ramassage.', color: '#7f1d1d', img: 'https://images.unsplash.com/photo-1597673030062-0a0f1a801a31?w=700&h=480&fit=crop&auto=format' },
 ]
 
 const TESTIMONIALS = [
   { name: 'Marie-Claude Tremblay', role: 'Directrice, Clinique Beausoleil', text: "L'équipe de My IT Services a transformé notre présence en ligne. Notre nouveau site génère des demandes de rendez-vous en continu. Service professionnel, rapide et vraiment à l'écoute.", avatar: 'MC', stars: 5 },
   { name: 'François Gagnon', role: 'Président, Groupe Lefebvre Inc.', text: "La migration vers Microsoft 365 s'est faite en un weekend sans interruption. 45 employés opérationnels le lundi matin. Je recommande sans hésitation.", avatar: 'FG', stars: 5 },
-  { name: 'Sarah Beauchemin', role: 'Fondatrice, Studio Volta', text: "Ils ont créé une identité visuelle cohérente sur tous nos canaux. Notre engagement Instagram a triplé en 3 mois. Des pros créatifs et fiables.", avatar: 'SB', stars: 5 },
-  { name: 'Jean-Pierre Côté', role: 'Propriétaire, Électro-Nord HVAC', text: "Depuis que My IT Services gère notre informatique, plus de panique. Problème résolu en moins d'une heure, peu importe l'heure. Excellent contrat de support.", avatar: 'JP', stars: 5 },
+  { name: 'Sarah Djuidje', role: 'Fondatrice, Studio Volta', text: "Ils ont créé une identité visuelle cohérente sur tous nos canaux. Notre referencement web a triplé en 2 mois. Des pros créatifs et fiables.", avatar: 'SB', stars: 5 },
+  { name: 'Jean-Pierre Côté', role: 'Propriétaire, Électro-Nord HVAC', text: "Depuis que My IT Services gère notre informatique, plus de panique. Problème résolu en moins d'une heure, peu importe l'heure. Excellent contrat de support.", avatar: 'JP', stars: 4 },
 ]
 
 const STATS = [
   { val: '150+', label: 'Clients satisfaits' },
   { val: '8 ans', label: "d'expérience" },
-  { val: '98%', label: 'Taux de satisfaction' },
+  { val: '96%', label: 'Taux de satisfaction' },
   { val: '< 1h', label: 'Temps de réponse' },
 ]
 
@@ -133,7 +136,7 @@ function LegalModal({ type, onClose }: { type: 'privacy' | 'terms' | 'accessibil
       title: "Conditions d'utilisation",
       sections: [
         { h: 'Acceptation', p: "En accédant à ce site, vous acceptez les présentes conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser ce site." },
-        { h: 'Description des services', p: "My IT Services propose des services informatiques professionnels : support technique, création de sites web, configuration Microsoft 365, cybersécurité, solutions infonuagiques et création de contenu numérique." },
+        { h: 'Description des services', p: "My IT Services propose des services informatiques professionnels : support technique, création de sites web, configuration Microsoft 365, recyclage , services de bureautique et création de contenu numérique." },
         { h: 'Propriété intellectuelle', p: "L'ensemble du contenu de ce site (textes, images, logos, graphismes, code source) est la propriété exclusive de My IT Services et est protégé par les lois canadiennes sur le droit d'auteur. Toute reproduction sans autorisation écrite est interdite." },
         { h: 'Utilisation acceptable', p: "Vous vous engagez à utiliser ce site uniquement à des fins légales, à ne pas tenter d'en compromettre la sécurité, à ne pas y diffuser de contenu illicite ou nuisible, et à ne pas utiliser nos coordonnées à des fins commerciales non sollicitées (spam)." },
         { h: 'Devis et engagements', p: "Les informations présentes sur ce site sont fournies à titre indicatif. Tout engagement de service fait l'objet d'un devis écrit distinct. My IT Services se réserve le droit de refuser toute demande de service." },
@@ -283,7 +286,7 @@ function HomePage({ setPage }: { setPage: (p: string) => void }) {
               <span style={{ color: '#0071e3' }}>simplifiée</span> pour vous.
             </h1>
             <p style={{ fontFamily: "'Inter',sans-serif", fontSize: 20, lineHeight: 1.6, color: '#6e6e73', maxWidth: 560, marginBottom: 44, animation: 'fadeUp 0.7s 0.2s cubic-bezier(.22,1,.36,1) both' }}>
-              Support informatique, création web, Microsoft 365 et bien plus — pour les particuliers et les PME du Québec.
+              Support informatique, création web, revalorisation de parc informatique  et bien plus — pour les particuliers et les PME du Québec.
             </p>
             <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', animation: 'fadeUp 0.7s 0.3s cubic-bezier(.22,1,.36,1) both' }}>
               <button onClick={() => { setPage('contact'); window.scrollTo({ top: 0 }) }} style={{
@@ -325,21 +328,22 @@ function HomePage({ setPage }: { setPage: (p: string) => void }) {
           <Reveal className="anim-fade-up" style={{ textAlign: 'center', marginBottom: 64 }}>
             <p style={{ fontFamily: "'Inter',sans-serif", fontSize: 14, fontWeight: 600, color: '#0071e3', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: 16 }}>Nos expertises</p>
             <h2 style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 800, fontSize: 'clamp(32px, 5vw, 52px)', letterSpacing: '-1.5px', color: '#1d1d1f', marginBottom: 16 }}>Tout ce qu'il vous faut,<br />au même endroit.</h2>
-            <p style={{ fontFamily: "'Inter',sans-serif", fontSize: 18, color: '#6e6e73', maxWidth: 500, margin: '0 auto' }}>Des solutions complètes pour que vous puissiez vous concentrer sur votre cœur de métier.</p>
+            <p style={{ fontFamily: "'Inter',sans-serif", fontSize: 18, color: '#6e6e73', maxWidth: 500, marginBottom: 30 }}>Des solutions complètes pour que vous puissiez vous concentrer sur votre cœur de métier.</p>
           </Reveal>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24, marginBottom: 37 }}>
             {SERVICES.slice(0, 3).map((s, i) => (
               <Reveal key={s.title} className={`anim-fade-up delay-${i + 1}`}>
                 <ServiceCard s={s} />
               </Reveal>
             ))}
           </div>
-          <Reveal className="anim-fade-up delay-3" style={{ textAlign: 'center', marginTop: 48 }}>
+          
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: 48 }}>
             <button onClick={() => { setPage('services'); window.scrollTo({ top: 0 }) }} style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 600, fontSize: 16, color: '#0071e3', background: 'none', border: '1.5px solid #0071e3', borderRadius: 980, padding: '14px 32px', cursor: 'pointer', transition: 'all 0.2s' }}
             onMouseEnter={e => { e.currentTarget.style.background = '#0071e3'; e.currentTarget.style.color = '#fff' }}
             onMouseLeave={e => { e.currentTarget.style.background = 'none'; e.currentTarget.style.color = '#0071e3' }}
             >Voir tous les services →</button>
-          </Reveal>
+          </div>
         </div>
       </section>
 
@@ -373,11 +377,11 @@ function HomePage({ setPage }: { setPage: (p: string) => void }) {
               </Reveal>
             ))}
           </div>
-          <Reveal className="anim-fade-up delay-3" style={{ textAlign: 'center', marginTop: 40 }}>
+          <div style={{ marginTop: 40 }}>
             <button onClick={() => { setPage('temoignages'); window.scrollTo({ top: 0 }) }} style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 600, fontSize: 15, color: '#0071e3', background: 'none', border: 'none', cursor: 'pointer' }}>
               Lire tous les avis →
             </button>
-          </Reveal>
+          </div>
         </div>
       </section>
     </div>
@@ -540,7 +544,7 @@ function ServicesPage({ setPage }: { setPage: (p: string) => void }) {
 // ─── PORTFOLIO PAGE ───────────────────────────────────────────────────────────
 function PortfolioPage() {
   const [active, setActive] = useState('Tous')
-  const cats = ['Tous', 'Site web', 'Microsoft 365', 'Création de contenu', 'Support informatique', 'Cybersécurité']
+  const cats = ['Tous', 'Site web', 'Microsoft 365', 'Support informatique', 'Rachat pc','Création de contenu']
   const filtered = active === 'Tous' ? PORTFOLIO : PORTFOLIO.filter(p => p.cat.includes(active.split(' ')[0]))
 
   return (
@@ -554,7 +558,7 @@ function PortfolioPage() {
           </Reveal>
         </div>
       </div>
-      <div style={{ padding: '48px 24px 80px', background: '#fff' }}>
+      <div style={{ padding: '80px 54px 80px', background: '#fff' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto' }}>
           {/* Filter tabs */}
           <Reveal className="anim-fade-up" style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 48 }}>
@@ -562,7 +566,7 @@ function PortfolioPage() {
               <button key={c} onClick={() => setActive(c)} style={{ fontFamily: "'Inter',sans-serif", fontWeight: 500, fontSize: 14, padding: '8px 20px', borderRadius: 980, border: active === c ? 'none' : '1.5px solid #d2d2d7', background: active === c ? '#0071e3' : 'transparent', color: active === c ? '#fff' : '#1d1d1f', cursor: 'pointer', transition: 'all 0.2s' }}>{c}</button>
             ))}
           </Reveal>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 24 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 24, marginTop: 50 }}>
             {filtered.map((p, i) => <PortfolioCard key={p.title} p={p} i={i} />)}
           </div>
         </div>
@@ -576,11 +580,6 @@ function PortfolioCard({ p, i }: { p: typeof PORTFOLIO[0] & { link?: string }; i
   return (
     <Reveal className={`anim-scale delay-${(i % 3) + 1}`}>
       <div onMouseEnter={() => setHov(true)} onMouseLeave={() => setHov(false)} style={{ borderRadius: 20, overflow: 'hidden', position: 'relative', cursor: 'pointer', boxShadow: hov ? '0 24px 64px rgba(0,0,0,0.16)' : '0 2px 16px rgba(0,0,0,0.07)', transform: hov ? 'translateY(-4px)' : 'none', transition: 'all 0.35s cubic-bezier(.22,1,.36,1)' }}>
-        {p.link && (
-          <div style={{ position: 'absolute', top: 14, right: 14, zIndex: 10, background: '#00e87a', borderRadius: 980, padding: '4px 12px', fontFamily: "'Inter',sans-serif", fontSize: 11, fontWeight: 700, color: '#0a0f0d', letterSpacing: '0.5px', textTransform: 'uppercase' }}>
-            Notre réalisation ✓
-          </div>
-        )}
         <div style={{ height: 260, overflow: 'hidden', background: '#e8e8ed' }}>
           <img src={p.img} alt={p.title} style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.6s ease', transform: hov ? 'scale(1.08)' : 'scale(1)' }} />
           <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(to bottom, transparent 40%, ${p.color}ee)`, transition: 'opacity 0.3s', opacity: hov ? 1 : 0.7 }} />
@@ -625,7 +624,7 @@ function TestimonialsPage({ setPage }: { setPage: (p: string) => void }) {
             </div>
             <div style={{ fontFamily: "'Inter',sans-serif", fontSize: 15, color: '#6e6e73' }}>Basé sur 150+ avis vérifiés</div>
           </Reveal>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24, marginTop: 25}}>
             {TESTIMONIALS.map((t, i) => (
               <Reveal key={t.name} className={`anim-fade-up delay-${(i % 3) + 1}`}>
                 <TestimonialCard t={t} />
@@ -641,8 +640,9 @@ function TestimonialsPage({ setPage }: { setPage: (p: string) => void }) {
               </Reveal>
             ))}
           </div>
+          <div style={{ height: 70 }} />
           <Reveal className="anim-fade-up delay-3" style={{ textAlign: 'center', marginTop: 64 }}>
-            <p style={{ fontFamily: "'Inter',sans-serif", fontSize: 18, color: '#6e6e73', marginBottom: 28 }}>Vous aussi, faites confiance à My IT Services.</p>
+            <p style={{ fontFamily: "'Inter',sans-serif", fontSize: 18, color: '#6e6e73', marginBottom: 38 }}>Vous aussi, faites confiance à My IT Services.</p>
             <button onClick={() => { setPage('contact'); window.scrollTo({ top: 0 }) }} style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 700, fontSize: 16, background: '#0071e3', color: '#fff', border: 'none', borderRadius: 980, padding: '16px 40px', cursor: 'pointer' }}>Demander une consultation</button>
           </Reveal>
         </div>
