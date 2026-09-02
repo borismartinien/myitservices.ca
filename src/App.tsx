@@ -45,17 +45,17 @@ function Reveal({ children, className = '' }: { children: ReactNode; className?:
 const SERVICES = [
   {
     icon: '🛠',
-    title: 'Support informatique',
+    title: 'Assistance informatique',
     desc: 'Dépannage, maintenance, mises à jour et assistance à distance ou sur site pour particuliers et entreprises.',
     color: '#dbeafe',
-    img: 'https://images.unsplash.com/photo-1738598763539-227fded84bf1?w=600&h=400&fit=crop&auto=format',
+    img: 'https://interservices.fr/wp-content/uploads/2025/03/Sem30.png',
   },
   {
     icon: '🌐',
     title: 'Création de sites web',
     desc: 'Sites vitrines, boutiques en ligne et applications web sur mesure, modernes et optimisés pour le référencement.',
     color: '#dcfce7',
-    img: 'https://static.wixstatic.com/media/4440b2_16762a267073491c80a30881994b0881~mv2.png/v1/fill/w_491,h_491,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4440b2_16762a267073491c80a30881994b0881~mv2.png',
+    img: 'https://soumissionrenovation.ca/_next/image?url=https%3A%2F%2Fapi.soumissionrenovation.ca%2Fmedia%2F311b2d81-b953-4a90-b68c-d4ab07b17b6f.png&w=1280&q=75',
   },
   {
     icon: '🔄',
@@ -95,7 +95,7 @@ const PORTFOLIO = [
   { title: 'Clinique Beausoleil', cat: 'Site web', desc: 'Site vitrine avec prise de rendez-vous en ligne pour une clinique dentaire de Laval.', color: '#1d1d1f', img: 'https://images.unsplash.com/photo-1528109966604-5a6a4a964e8d?w=700&h=480&fit=crop&auto=format' },
   { title: 'Groupe Lefebvre Inc.', cat: 'Microsoft 365', desc: 'Migration complète de 45 employés vers Microsoft 365 avec configuration Teams et SharePoint.', color: '#0071e3', img: 'https://images.unsplash.com/photo-1666698809123-44e998e93f23?w=700&h=480&fit=crop&auto=format' },
   { title: 'Studio Volta', cat: 'Création de contenu', desc: 'Stratégie de contenu, vidéos courtes et graphismes pour Instagram et LinkedIn.', color: '#6d28d9', img: 'https://images.unsplash.com/photo-1760008486593-a85315610136?w=700&h=480&fit=crop&auto=format' },
-  { title: 'Électro-Nord HVAC', cat: 'Support informatique', desc: "Contrat de maintenance mensuel, helpdesk et gestion du parc de 12 postes de travail.", color: '#065f46', img: 'https://images.unsplash.com/photo-1484788984921-03950022c9ef?w=700&h=480&fit=crop&auto=format' },
+  { title: 'Électro-Nord HVAC', cat: 'Assistance informatique', desc: "Contrat de maintenance mensuel, helpdesk et gestion du parc de 12 postes de travail.", color: '#065f46', img: 'https://images.unsplash.com/photo-1484788984921-03950022c9ef?w=700&h=480&fit=crop&auto=format' },
   { title: 'Boulangerie Maison Pain', cat: 'Site web + SEO', desc: 'Boutique en ligne Shopify avec référencement local et intégration des réseaux sociaux.', color: '#92400e', img: 'https://images.unsplash.com/photo-1511385348-a52b4a160dc2?w=700&h=480&fit=crop&auto=format' },
   { title: 'Cabinet Arcand Avocats', cat: 'Rachat pc', desc: 'rachat complet du parc informatique, éffacement des données et ramassage.', color: '#7f1d1d', img: 'https://images.unsplash.com/photo-1597673030062-0a0f1a801a31?w=700&h=480&fit=crop&auto=format' },
 ]
@@ -544,7 +544,7 @@ function ServicesPage({ setPage }: { setPage: (p: string) => void }) {
 // ─── PORTFOLIO PAGE ───────────────────────────────────────────────────────────
 function PortfolioPage() {
   const [active, setActive] = useState('Tous')
-  const cats = ['Tous', 'Site web', 'Microsoft 365', 'Support informatique', 'Rachat pc','Création de contenu']
+  const cats = ['Tous', 'Site web', 'Microsoft 365', 'Assistance informatique', 'Rachat pc','Création de contenu']
   const filtered = active === 'Tous' ? PORTFOLIO : PORTFOLIO.filter(p => p.cat.includes(active.split(' ')[0]))
 
   return (
